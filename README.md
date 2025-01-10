@@ -1,40 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Atmusphere
 
-## Getting Started
+## Description
 
-First, run the development server:
+**Atmusphere** is an AI-powered playlist builder and player designed to enhance your music experience by tailoring playlists for various moods and occasions. With a step-by-step questionnaire, users can create playlists that resonate with their emotions and preferences. The app seamlessly integrates with Spotify, providing a personalized and immersive music atmosphere.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Core Features
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. **AI-Powered Playlist Builder and Player**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+   - Create playlists for specific occasions or moods with ease.
+   - Includes a step-by-step questionnaire for precise recommendations.
+   - Optionally utilizes Spotify profile data for enhanced personalization.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Genre Customization**
 
-## Learn More
+   - Choose or exclude genres from a predefined list to refine playlists.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Predefined Moods and Occasions**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+   - Select from several predefined moods (e.g., Relaxed, Energetic, Happy).
+   - Build playlists for predefined occasions (e.g., Study, Party, Chill).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Features Planned for Future Development
 
-## Deploy on Vercel
+4. **User Refinement Options**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Input custom preferences to fine-tune playlists.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+5. **Dynamic Themes Based on Mood**
+
+   - Automatically adapt the app’s theme to match the user’s mood.
+
+6. **Dynamic Visuals with DALL·E**
+
+   - Use AI to generate custom graphics or visuals that reflect the playlist’s vibe.
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Node.js (latest version recommended)
+- Spotify Developer Account (for API keys)
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/emilebotev/atmusphere.git
+   cd atmusphere
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables:
+   - Create a `.env.local` file in the root directory.
+   - Add your Spotify API keys:
+     ```env
+     SPOTIFY_CLIENT_ID=your-client-id
+     SPOTIFY_CLIENT_SECRET=your-client-secret
+     SPOTIFY_REDIRECT_URI=http://localhost:3000/api/auth/callback
+     ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## Usage
+
+1. Open the app in your browser at `http://localhost:3000`.
+2. Follow the on-screen steps to create your playlist:
+   - Select a predefined mood or occasion.
+   - Customize genre preferences.
+3. Enjoy your personalized playlist powered by AI and Spotify!
+
+---
+
+## Technologies Used
+
+- **Next.js**: Framework for server-side rendering and routing.
+- **TypeScript**: Type-safe development.
+- **Tailwind CSS**: Utility-first styling.
+- **Redux Toolkit (RTK)**: State management and API handling.
+- **Spotify API**: Music data and playlist integration.
+- **Material-UI (MUI)**: Component styling and theming.
+- **DALL·E API** (planned): AI-generated visuals.
+
+---
+
+## Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature-name"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact
+
+For questions or feedback, feel free to contact:
+
+- **Email**: [emilebotev@gmail.com](mailto\:emilebotev@gmail.com)
+- **GitHub**: [emilebotev](https://github.com/emilebotev)
+

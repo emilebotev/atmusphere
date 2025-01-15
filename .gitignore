@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#notes
+useful-links.txt
+development-plan.txt
+
+#github automated issues creation
+issue-creating-script.js

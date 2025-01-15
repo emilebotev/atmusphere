@@ -65,7 +65,7 @@
      ```env
      SPOTIFY_CLIENT_ID=your-client-id
      SPOTIFY_CLIENT_SECRET=your-client-secret
-     SPOTIFY_REDIRECT_URI=http://localhost:3000/api/auth/callback
+     SPOTIFY_REDIRECT_URI=http://localhost:3000/api/auth/spotify
      ```
 4. Start the development server:
    ```bash

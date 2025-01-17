@@ -127,6 +127,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 For questions or feedback, feel free to contact:
 
-- **Email**: [emilebotev@gmail.com](mailto\:emilebotev@gmail.com)
+- **Email**: [emilebotev@gmail.com](mailto:emilebotev@gmail.com)
 - **GitHub**: [emilebotev](https://github.com/emilebotev)
-
